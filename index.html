@@ -5,9 +5,37 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewpoint" content="width=device-width, initial-scale=1">
 <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<link rel="stylesheet" href="style.css" type="text/css">
+<link href="style.css" rel="stylesheet" type="text/css">
 <style type="text/css"></style>
-<title>Самозанятые</title>
+<title>Регистрация самозанятых</title>
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+.header {
+    padding: 80px;
+    text-align: right; 
+    color: white;
+    background: linear-gradient(45deg, #021B79, #0575E6);
+    box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.4);
+}
+.header h1 {
+    font-size: 40px;
+}
+.header img{
+	object-position: left;
+	display:block;
+	position: relative;
+    margin: 10px 10px;
+    padding-bottom: 20px;
+    float: left;
+}
+</style>
 
 <header>
 	<div class="header">
@@ -22,11 +50,66 @@
     <li class="left-item"><a href="#anchor1">Преимущества</a></li>
     <li class="left-item"><a href="#anchor2">Консультации</a></li>
     <li class="right-item"><a href=#anchor3>Вопросы</a></li>
-    <li class="right-item"><a href="#anchor4">Рассчет финансов</a></li>
+    <li class="right-item"><a href="#anchor4">Расчет финансов</a></li>
     
 </ul>
 </nav>
 </div>
+<style type="text/css">
+.top-menu {
+  position: relative;
+  background: black;
+}
+.menu-main {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.menu-main:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.left-item {float: left;}
+.right-item {float: right;}
+.navbar-logo {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+.menu-main a {
+  text-decoration: none;
+  display: block;
+  line-height: 80px;
+  padding: 0 20px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-family: 'Arimo', sans-serif;
+  font-weight: bold;
+  color: white;
+  transition: .3s linear;
+}
+.navbar-logo {
+  position: absolute;
+  left: 50%;
+  top: 10px;
+  transform: translateX(-50%);
+}
+.menu-main li {
+  float: center;
+  display: inline-block;
+}
+.menu-main a {
+  line-height: normal;
+  padding: 20px 15px;
+  font-size: 16px;
+}
+}
+@media (max-width: 630px) {
+.menu-main li {display: block;}
+}
+</style>
 <body>
 	<section>
 	<div class="block1">
@@ -43,7 +126,23 @@
 	<li>граждане, чей доход превышает 200 000 ₽ в месяц.</li>
 </ul>
 	</div>
-
+<style type="text/css">
+.block1 {
+    padding: 80px;
+    text-align: center; 
+    background: white; 
+    color: black;
+}
+.block1 ul{
+	text-align: left; 
+    background: white; 
+    color: black;
+    display:inline-block;
+}
+.block1 h1 {
+    font-size: 40px;
+}
+</style>
 </section>
 
 <section>
@@ -51,26 +150,69 @@
 		<h1></h1>
 		<p>Физические лица и индивидуальные предприниматели, которые переходят на новый специальный налоговый режим (самозанятые), могут платить с доходов от самостоятельной деятельности только налог по льготной ставке — 4 или 6%. Это позволяет легально вести бизнес и получать доход от подработок без рисков получить штраф за незаконную предпринимательскую деятельность.</p>
 	</div>
+<style type="text/css">
+.block2 {
+    padding: 80px;
+    text-align: center; 
+    background: linear-gradient(45deg, #021B79, #0575E6); 
+    color: white;
+	box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.4);
+}
+.block2 h1 {
+    font-size: 40px;
+}
+</style>
+</section>
+
 <section>
 <div class="block3">
 		<h1 id=anchor1>Какие преимущества я получаю?</h1>
 		<p><ol> <li>Возможность покупателям получать налоговый вычет по своим налогам при покупках у самозанятых в виде 1,5% от размера покупки, до 10 тыс. руб. в год.</li>
 <li>Предоставление самозанятым в момент регистрации налогового капитала на развитие, за счет чего может быть уменьшена примерно на четверть в год сумма платежей к оплате.</li>
-<li>Приоритет на биржах труда.</li>
-<li>Возможность пообщаться с консультантом по поводу налогов.</li>
+<li>Приоритет на биржах труда.Официальное потверждение на таких сайтах как hh.ru и многих других.</li>
+<li>Возможность круглосуточного обращения к консультанту по поводу налогов.</li>
 <li>Уверенность в надежности своих счетов.</li>
 <li>Возможность интерактивно рассчитывать свои финансы.</li></ol></p>
 <button class="btn">Мне это подходит!</button>
 	</div>
+<style type="text/css">
+.block3 {
+    padding: 80px;
+    text-align: center; 
+    background: white; 
+    color: black;
+	box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.4);
+}
+.block3 h1 {
+    font-size: 40px;
+}
+.block3 ol{
+	text-align: left; 
+    background: white; 
+    color: black;
+    display:inline-block;
+}
+</style>
 </section>
 
 <section>
 <div class="block4">
 		<h1 id=anchor2>Доступные консультации</h1>
-		<p>Зарегистрированные самозанятые получают уникальную возможноть получать круглосуточную консультацию наших специалистов.</p>
+		<p>Зарегистрированные самозанятые получают уникальную возможность получать круглосуточную консультацию наших специалистов.</p>
 		<p>Узнай о своих привилегиях сейчас!</p>
 		<button class="btn">Узнать</button>
 	</div>
+<style type="text/css">
+.block4 {
+    padding: 80px;
+    text-align: center; 
+    background: linear-gradient(45deg, #021B79, #0575E6);
+    color: white;
+	box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.4);
+}
+.block4 h1 {
+    font-size: 40px;
+}
 </style>
 </section>
 
@@ -81,16 +223,42 @@
 		<p>Не трать время - узнай о своих финансах сейчас!</p>
 		<button class="btn">Рассчитать сейчас</button>
 	</div>
+<style type="text/css">
+.block5 {
+    padding: 80px;
+    text-align: center; 
+    background: white; 
+    color: black;
+	box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.4);
+}
+.block5 h1 {
+    font-size: 40px;
+}
+</style>
 </section>
 
 <section>
 <div class="block6">
 		<h1>Почему мы?</h1>
 		<p>Мы удовлетворяем запросы граждан и государства.</p>
-		<p>Мы реализуем широкий спектр полезных функций.</p>
+		<p>Мы реализуем широкий спектр услуг для зарегистрированных самозанятых.</p>
+		<p>Мы единственные на рынке.</p>
+
 
 		<p>Платить налоги теперь выгодно!</p>
 	</div>
+<style type="text/css">
+.block6 {
+    padding: 80px;
+    text-align: center; 
+    background: linear-gradient(45deg, #021B79, #0575E6);
+    color: white;
+	box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.4);
+}
+.block6 h1 {
+    font-size: 40px;
+}
+</style>
 </section>
 
 <section>
@@ -99,6 +267,66 @@
 		<p></p>
 		<button class="btn">Регистрация</button>
 	</div>
+<style type="text/css">
+.block7 {
+    padding: 80px;
+    text-align: center; 
+    background: white; 
+    color: black;
+	box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.4);
+}
+.block7 h1 {
+    font-size: 40px;
+}
+.btn {
+	position: relative;
+    overflow: hidden;
+    z-index: 1;
+	padding: 10px 40px;
+	margin: 0 20px;
+	font-family: Ariel, sans-serif;
+    font-weight: 600;
+    line-height: 30px;
+    color: white;
+    font-size: 15px;    
+    text-transform: uppercase;
+	background: linear-gradient(45deg, #021B79, #0575E6);
+	border-width: 0;
+    box-shadow: 5px 5px 0 #d4d4d4;
+	outline: none;
+	cursor: pointer;
+    transition: 1.5s;
+}
+.btn:before,
+.btn:after {
+	content: "";
+	position: absolute;  
+    height: 200px;
+    left: -50%;
+    margin-top: -100px;    
+    top: 50%;
+    width: 200px;
+	border-radius: 50%;
+    opacity: 0.3;
+    z-index: -1;
+    transform: scale(0);
+}
+.btn:before {
+	background: black;   
+    transition: .8s ease-out;
+}
+.btn:after {   
+    transition: .4s ease-in .3s;
+}
+.btn:hover {
+    color: black;
+}
+.btn:hover:before,
+.btn:hover:after{
+    opacity: 1;
+    transform: scale(4);
+}
+</style>
 </section>
 
 <section>
@@ -117,7 +345,103 @@
   </div>
 </form>
 	</div>
-
+<style type="text/css">
+.block8 {
+    padding: 80px;
+    text-align: center; 
+    background: linear-gradient(45deg, #021B79, #0575E6); 
+    color: white;
+	box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.4);
+}
+.block8 h1 {
+    font-size: 40px;
+}
+.decor {
+  position: relative;
+  max-width: 400px;
+  margin: 50px auto 0;
+  background: white;
+  border-radius: 30px;
+}
+.form-left-decoration,
+.form-right-decoration {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 20px;
+  background: #021B79;
+  border-radius: 20px;
+}
+.form-left-decoration {
+  bottom: 60px;
+  left: -30px;
+}
+.form-right-decoration {
+  top: 60px;
+  right: -30px;
+}
+.form-left-decoration:before,
+.form-left-decoration:after,
+.form-right-decoration:before,
+.form-right-decoration:after {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 20px;
+  border-radius: 30px;
+  background: white;
+}
+.form-left-decoration:before {top: -20px;}
+.form-left-decoration:after {
+  top: 20px;
+  left: 10px;
+}
+.form-right-decoration:before {
+  top: -20px;
+  right: 0;
+}
+.form-right-decoration:after {
+  top: 20px;
+  right: 10px;
+}
+.circle {
+  position: absolute;
+  bottom: 80px;
+  left: -55px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: white;
+}
+.form-inner {padding: 50px;}
+.form-inner input,
+.form-inner textarea {
+  display: block;
+  width: 100%;
+  padding: 0 20px;
+  margin-bottom: 10px;
+  background: #d4d4d4;
+  line-height: 40px;
+  border-width: 0;
+  border-radius: 20px;
+  font-family: Ariel, sans-serif;
+}
+.form-inner input[type="submit"] {
+  margin-top: 30px;
+  background: #0575E6;
+  border-bottom: 4px solid #C0C0C0;
+  color: white;
+  font-size: 14px;
+}
+.form-inner textarea {resize: none;}
+.form-inner h3 {
+  margin-top: 0;
+  font-family: Ariel,sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  color: #707981;
+}
+</style>
 </section>
 </body>
 
@@ -126,4 +450,14 @@
 		<p>&copy; 2020</p>
 		<p>ФНС России</p>
 	</div>
+<style type="text/css">
+.footer{
+	color: white;
+	background: black;
+	text-align: right;
+}
+p{
+	margin-right: 10px;
+}
+</style>
 </footer>
