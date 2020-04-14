@@ -79,6 +79,21 @@ body {
 @media (max-width: 630px) {
 .menu-main li {display: block;}
 }
+.block1 {
+    padding: 80px;
+    text-align: center; 
+    background: white; 
+    color: black;
+}
+.block1 ul{
+	text-align: left; 
+    background: white; 
+    color: black;
+    display:inline-block;
+}
+.block1 h1 {
+    font-size: 40px;
+}
 .block2 {
     padding: 80px;
     text-align: center; 
